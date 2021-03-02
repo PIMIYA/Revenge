@@ -8,22 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		115F2F8A25EB9F1900806B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F2F8925EB9F1900806B96 /* AppDelegate.swift */; };
-		115F2F8C25EB9F1900806B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F2F8B25EB9F1900806B96 /* ViewController.swift */; };
+		115F2F8C25EB9F1900806B96 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F2F8B25EB9F1900806B96 /* MainViewController.swift */; };
 		115F2F8E25EB9F1900806B96 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 115F2F8D25EB9F1900806B96 /* Experience.rcproject */; };
-		115F2F9125EB9F1900806B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115F2F8F25EB9F1900806B96 /* Main.storyboard */; };
 		115F2F9325EB9F1A00806B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115F2F9225EB9F1A00806B96 /* Assets.xcassets */; };
 		115F2F9625EB9F1A00806B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115F2F9425EB9F1A00806B96 /* LaunchScreen.storyboard */; };
+		11E4ADAD25EE95E0006E37C7 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADAC25EE95E0006E37C7 /* VideoCapture.swift */; };
+		11E4ADB125EE96B0006E37C7 /* AVCaptureDevice+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADB025EE96B0006E37C7 /* AVCaptureDevice+FrameRate.swift */; };
+		11E4ADB425EE96E1006E37C7 /* AVCaptureDeviceInput+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADB325EE96E1006E37C7 /* AVCaptureDeviceInput+Camera.swift */; };
+		11E4ADB725EE9730006E37C7 /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADB625EE9730006E37C7 /* AVCaptureVideoDataOutput+PixelFormat.swift */; };
+		11E4ADBC25EE98AD006E37C7 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADBB25EE98AD006E37C7 /* IntroViewController.swift */; };
+		11E4ADC025EE9917006E37C7 /* VideoProcessingChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADBF25EE9917006E37C7 /* VideoProcessingChain.swift */; };
+		11E4ADC525EE997A006E37C7 /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADC425EE997A006E37C7 /* Pose.swift */; };
+		11E4ADC825EE99B5006E37C7 /* Pose+Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADC725EE99B5006E37C7 /* Pose+Landmark.swift */; };
+		11E4ADCB25EE99E3006E37C7 /* Pose+Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADCA25EE99E3006E37C7 /* Pose+Connection.swift */; };
+		11E4ADCE25EE9A15006E37C7 /* Pose+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADCD25EE9A15006E37C7 /* Pose+Empty.swift */; };
+		11E4ADD525EE9B5B006E37C7 /* PerformanceReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADD425EE9B5B006E37C7 /* PerformanceReporter.swift */; };
+		11E4ADD925EE9B9A006E37C7 /* ActionPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADD825EE9B9A006E37C7 /* ActionPrediction.swift */; };
+		11E4ADDD25EE9BCB006E37C7 /* ExerciseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADDC25EE9BCB006E37C7 /* ExerciseClassifier.mlmodel */; };
+		11E4ADE025EE9BFF006E37C7 /* ExerciseClassifier+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADDF25EE9BFF006E37C7 /* ExerciseClassifier+Singleton.swift */; };
+		11E4ADE625EE9C30006E37C7 /* ExerciseClassifier+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADE225EE9C2F006E37C7 /* ExerciseClassifier+FrameRate.swift */; };
+		11E4ADE725EE9C30006E37C7 /* ExerciseClassifier+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADE325EE9C30006E37C7 /* ExerciseClassifier+Label.swift */; };
+		11E4ADE825EE9C30006E37C7 /* ExerciseClassifier+PredictAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADE425EE9C30006E37C7 /* ExerciseClassifier+PredictAction.swift */; };
+		11E4ADE925EE9C30006E37C7 /* ExerciseClassifier+LabelCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADE525EE9C30006E37C7 /* ExerciseClassifier+LabelCheck.swift */; };
+		11E4ADEC25EE9C8A006E37C7 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4ADEB25EE9C8A006E37C7 /* SummaryViewController.swift */; };
+		11E4ADF025EE9CD6006E37C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E4ADEF25EE9CD6006E37C7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		115F2F8625EB9F1900806B96 /* Revenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		115F2F8925EB9F1900806B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		115F2F8B25EB9F1900806B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		115F2F8B25EB9F1900806B96 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		115F2F8D25EB9F1900806B96 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
-		115F2F9025EB9F1900806B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		115F2F9225EB9F1A00806B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		115F2F9525EB9F1A00806B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115F2F9725EB9F1A00806B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E4ADAC25EE95E0006E37C7 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		11E4ADB025EE96B0006E37C7 /* AVCaptureDevice+FrameRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+FrameRate.swift"; sourceTree = "<group>"; };
+		11E4ADB325EE96E1006E37C7 /* AVCaptureDeviceInput+Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDeviceInput+Camera.swift"; sourceTree = "<group>"; };
+		11E4ADB625EE9730006E37C7 /* AVCaptureVideoDataOutput+PixelFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoDataOutput+PixelFormat.swift"; sourceTree = "<group>"; };
+		11E4ADBB25EE98AD006E37C7 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		11E4ADBF25EE9917006E37C7 /* VideoProcessingChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessingChain.swift; sourceTree = "<group>"; };
+		11E4ADC425EE997A006E37C7 /* Pose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		11E4ADC725EE99B5006E37C7 /* Pose+Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pose+Landmark.swift"; sourceTree = "<group>"; };
+		11E4ADCA25EE99E3006E37C7 /* Pose+Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pose+Connection.swift"; sourceTree = "<group>"; };
+		11E4ADCD25EE9A15006E37C7 /* Pose+Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pose+Empty.swift"; sourceTree = "<group>"; };
+		11E4ADD425EE9B5B006E37C7 /* PerformanceReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceReporter.swift; sourceTree = "<group>"; };
+		11E4ADD825EE9B9A006E37C7 /* ActionPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionPrediction.swift; sourceTree = "<group>"; };
+		11E4ADDC25EE9BCB006E37C7 /* ExerciseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ExerciseClassifier.mlmodel; sourceTree = "<group>"; };
+		11E4ADDF25EE9BFF006E37C7 /* ExerciseClassifier+Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+Singleton.swift"; sourceTree = "<group>"; };
+		11E4ADE225EE9C2F006E37C7 /* ExerciseClassifier+FrameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+FrameRate.swift"; sourceTree = "<group>"; };
+		11E4ADE325EE9C30006E37C7 /* ExerciseClassifier+Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+Label.swift"; sourceTree = "<group>"; };
+		11E4ADE425EE9C30006E37C7 /* ExerciseClassifier+PredictAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+PredictAction.swift"; sourceTree = "<group>"; };
+		11E4ADE525EE9C30006E37C7 /* ExerciseClassifier+LabelCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExerciseClassifier+LabelCheck.swift"; sourceTree = "<group>"; };
+		11E4ADEB25EE9C8A006E37C7 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		11E4ADEF25EE9CD6006E37C7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +94,90 @@
 		115F2F8825EB9F1900806B96 /* Revenge */ = {
 			isa = PBXGroup;
 			children = (
-				115F2F8925EB9F1900806B96 /* AppDelegate.swift */,
-				115F2F8B25EB9F1900806B96 /* ViewController.swift */,
-				115F2F8D25EB9F1900806B96 /* Experience.rcproject */,
-				115F2F8F25EB9F1900806B96 /* Main.storyboard */,
-				115F2F9225EB9F1A00806B96 /* Assets.xcassets */,
-				115F2F9425EB9F1A00806B96 /* LaunchScreen.storyboard */,
-				115F2F9725EB9F1A00806B96 /* Info.plist */,
+				11E4ADD725EE9B81006E37C7 /* Action Classifier */,
+				11E4ADC325EE9968006E37C7 /* Pose */,
+				11E4ADBE25EE98FF006E37C7 /* Video Processing Chain */,
+				11E4ADB925EE97A7006E37C7 /* Views */,
+				11E4ADAB25EE95C3006E37C7 /* Video Capture */,
+				11E4ADD325EE9B41006E37C7 /* Utility */,
+				11E4ADD025EE9AE6006E37C7 /* App */,
 			);
 			path = Revenge;
+			sourceTree = "<group>";
+		};
+		11E4ADAB25EE95C3006E37C7 /* Video Capture */ = {
+			isa = PBXGroup;
+			children = (
+				11E4ADAC25EE95E0006E37C7 /* VideoCapture.swift */,
+				11E4ADB025EE96B0006E37C7 /* AVCaptureDevice+FrameRate.swift */,
+				11E4ADB325EE96E1006E37C7 /* AVCaptureDeviceInput+Camera.swift */,
+				11E4ADB625EE9730006E37C7 /* AVCaptureVideoDataOutput+PixelFormat.swift */,
+			);
+			path = "Video Capture";
+			sourceTree = "<group>";
+		};
+		11E4ADB925EE97A7006E37C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				115F2F8B25EB9F1900806B96 /* MainViewController.swift */,
+				11E4ADBB25EE98AD006E37C7 /* IntroViewController.swift */,
+				11E4ADEB25EE9C8A006E37C7 /* SummaryViewController.swift */,
+				11E4ADEF25EE9CD6006E37C7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11E4ADBE25EE98FF006E37C7 /* Video Processing Chain */ = {
+			isa = PBXGroup;
+			children = (
+				11E4ADBF25EE9917006E37C7 /* VideoProcessingChain.swift */,
+			);
+			path = "Video Processing Chain";
+			sourceTree = "<group>";
+		};
+		11E4ADC325EE9968006E37C7 /* Pose */ = {
+			isa = PBXGroup;
+			children = (
+				11E4ADC425EE997A006E37C7 /* Pose.swift */,
+				11E4ADC725EE99B5006E37C7 /* Pose+Landmark.swift */,
+				11E4ADCA25EE99E3006E37C7 /* Pose+Connection.swift */,
+				11E4ADCD25EE9A15006E37C7 /* Pose+Empty.swift */,
+			);
+			path = Pose;
+			sourceTree = "<group>";
+		};
+		11E4ADD025EE9AE6006E37C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				115F2F9725EB9F1A00806B96 /* Info.plist */,
+				115F2F8925EB9F1900806B96 /* AppDelegate.swift */,
+				115F2F8D25EB9F1900806B96 /* Experience.rcproject */,
+				115F2F9225EB9F1A00806B96 /* Assets.xcassets */,
+				115F2F9425EB9F1A00806B96 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		11E4ADD325EE9B41006E37C7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				11E4ADD425EE9B5B006E37C7 /* PerformanceReporter.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		11E4ADD725EE9B81006E37C7 /* Action Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				11E4ADD825EE9B9A006E37C7 /* ActionPrediction.swift */,
+				11E4ADDC25EE9BCB006E37C7 /* ExerciseClassifier.mlmodel */,
+				11E4ADDF25EE9BFF006E37C7 /* ExerciseClassifier+Singleton.swift */,
+				11E4ADE225EE9C2F006E37C7 /* ExerciseClassifier+FrameRate.swift */,
+				11E4ADE325EE9C30006E37C7 /* ExerciseClassifier+Label.swift */,
+				11E4ADE525EE9C30006E37C7 /* ExerciseClassifier+LabelCheck.swift */,
+				11E4ADE425EE9C30006E37C7 /* ExerciseClassifier+PredictAction.swift */,
+			);
+			path = "Action Classifier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E4ADF025EE9CD6006E37C7 /* Main.storyboard in Resources */,
 				115F2F9625EB9F1A00806B96 /* LaunchScreen.storyboard in Resources */,
 				115F2F9325EB9F1A00806B96 /* Assets.xcassets in Resources */,
-				115F2F9125EB9F1900806B96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +250,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				115F2F8C25EB9F1900806B96 /* ViewController.swift in Sources */,
+				11E4ADC825EE99B5006E37C7 /* Pose+Landmark.swift in Sources */,
+				11E4ADAD25EE95E0006E37C7 /* VideoCapture.swift in Sources */,
+				11E4ADE925EE9C30006E37C7 /* ExerciseClassifier+LabelCheck.swift in Sources */,
+				11E4ADB425EE96E1006E37C7 /* AVCaptureDeviceInput+Camera.swift in Sources */,
+				115F2F8C25EB9F1900806B96 /* MainViewController.swift in Sources */,
+				11E4ADD925EE9B9A006E37C7 /* ActionPrediction.swift in Sources */,
+				11E4ADCE25EE9A15006E37C7 /* Pose+Empty.swift in Sources */,
+				11E4ADE825EE9C30006E37C7 /* ExerciseClassifier+PredictAction.swift in Sources */,
+				11E4ADE625EE9C30006E37C7 /* ExerciseClassifier+FrameRate.swift in Sources */,
 				115F2F8A25EB9F1900806B96 /* AppDelegate.swift in Sources */,
+				11E4ADE025EE9BFF006E37C7 /* ExerciseClassifier+Singleton.swift in Sources */,
+				11E4ADC525EE997A006E37C7 /* Pose.swift in Sources */,
+				11E4ADC025EE9917006E37C7 /* VideoProcessingChain.swift in Sources */,
+				11E4ADE725EE9C30006E37C7 /* ExerciseClassifier+Label.swift in Sources */,
 				115F2F8E25EB9F1900806B96 /* Experience.rcproject in Sources */,
+				11E4ADEC25EE9C8A006E37C7 /* SummaryViewController.swift in Sources */,
+				11E4ADB125EE96B0006E37C7 /* AVCaptureDevice+FrameRate.swift in Sources */,
+				11E4ADB725EE9730006E37C7 /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
+				11E4ADCB25EE99E3006E37C7 /* Pose+Connection.swift in Sources */,
+				11E4ADBC25EE98AD006E37C7 /* IntroViewController.swift in Sources */,
+				11E4ADD525EE9B5B006E37C7 /* PerformanceReporter.swift in Sources */,
+				11E4ADDD25EE9BCB006E37C7 /* ExerciseClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		115F2F8F25EB9F1900806B96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				115F2F9025EB9F1900806B96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		115F2F9425EB9F1A00806B96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +412,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PVX8Y58QXN;
-				INFOPLIST_FILE = Revenge/Info.plist;
+				INFOPLIST_FILE = Revenge/App/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pimiya.Revenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +431,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PVX8Y58QXN;
-				INFOPLIST_FILE = Revenge/Info.plist;
+				INFOPLIST_FILE = Revenge/App/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pimiya.Revenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
